@@ -1,0 +1,15 @@
+The main difference between CSS grid layout and CSS flexbox layout:-
+The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed for layout in one dimension 
+- either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications share some common features, however, and if you have already learned how to use flexbox, the similarities should help you get to grips with Grid.
+
+A simple question to ask yourself when deciding between grid or flexbox is:-
+
+-do I only need to control the layout by row or column – use a flexbox.
+-do I need to control the layout by row and column – use a grid.
+
+ there is another way to decide if you should use flexbox or grid for a layout. Flexbox works from the content out. An ideal use case for flexbox is when you have a set of items and want to space them out evenly in a container. You let the size of the content decide how much individual space each item takes up. If the items wrap onto a new line, they will work out their spacing based on their size and the available space on that line.
+
+Grid works from the layout in. When you use CSS Grid Layout you create a layout and then you place items into it, or you allow the auto-placement rules to place the items into the grid cells according to that strict grid. It is possible to create tracks that respond to the size of the content, however, they will also change the entire track.
+
+If you are using flexbox and find yourself disabling some of the flexibility, you probably need to use CSS Grid Layout. An example would be if you are setting a percentage width on a flex item to make it line up with other items in a row above. In that case, a grid is likely to be a better choice.
+
